@@ -12,6 +12,7 @@ void main() {
 
   var caio = Funcionario(nome: 'Pedro', cargo: gerente);
   var pedro = Funcionario(nome: 'Caio', cargo: supervisor);
+
   var venda1 = Venda(valor: 100, cliente: cliente, funcionario: caio);
   var venda2 = Venda(valor: 100, cliente: cliente, funcionario: pedro);
 
