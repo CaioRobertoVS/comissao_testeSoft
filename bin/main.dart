@@ -18,7 +18,7 @@ void main() {
   venda.valor = double.tryParse(readLine('Valor da venda: '));
   funcionario.nome = readLine('Nome do funcionário: ');
 
-  cargo = readLine('Cargo do cliente (gerente/supervisor): ');
+  cargo = readLine('Cargo do funcionário (gerente/supervisor): ');
 
   switch (cargo) {
     case 'gerente':
