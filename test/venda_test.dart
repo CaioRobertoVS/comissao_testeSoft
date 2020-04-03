@@ -19,8 +19,8 @@ void main() {
       var gerente = Gerente();
       var sara = Funcionario(nome: 'Sara', cargo: gerente);
 
-      final venda = Venda(valor: 1800, funcionario: sara);
-      venda.valor = venda.valor - 46;
+      final venda = Venda(valor: 1900, funcionario: sara);
+      venda.valor = venda.valor - 146;
 
       expect(venda.valor, 1754);
       expect(sara.nome, 'Sara');
