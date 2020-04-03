@@ -1,10 +1,10 @@
-//40% de comissão
+//30% de comissão
 import 'package:comissao/cargo.dart';
 import 'package:comissao/venda.dart';
 
-class Gerente implements Cargo {
+class Supervisor implements Cargo {
   @override
   double comissao(Venda venda) {
-    return venda.valor * 0.4;
+    return venda.valor * 0.3;
   }
 }

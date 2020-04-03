@@ -5,7 +5,7 @@ class Funcionario {
   Cargo cargo;
 
   Funcionario({
-    this.nome,
+    this.nome = '',
     this.cargo,
   });
 }
