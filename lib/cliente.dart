@@ -1,7 +1,5 @@
 class Cliente {
   String nome;
 
-  Cliente({
-    this.nome = '',
-  });
+  Cliente({this.nome = ''});
 }
