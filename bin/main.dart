@@ -25,16 +25,16 @@ void main() {
       {
         var gerenteVenda = gerente.comissao(venda).toStringAsFixed(2);
         print('A comissão do gerente é: R\$ $gerenteVenda');
-        print('O valor da sua última venda foi R\$ ${venda.valor}');
-        print('Seu último cliente foi ${cliente.nome}');
+        print('O valor da sua venda foi R\$ ${venda.valor}');
+        print('O cliente do ${funcionario.nome} foi ${cliente.nome}');
       }
       break;
     case 'supervisor':
       {
         var supervisorVenda = supervisor.comissao(venda).toStringAsFixed(2);
         print('A comissão do supervisor é: R\$ $supervisorVenda');
-        print('O valor da sua última venda foi R\$ ${venda.valor}');
-        print('Seu último cliente foi ${cliente.nome}');
+        print('O valor da sua venda foi R\$ ${venda.valor}');
+        print('O cliente do ${funcionario.nome} foi ${cliente.nome}');
       }
       break;
     default:
