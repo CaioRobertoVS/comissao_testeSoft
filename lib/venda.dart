@@ -6,9 +6,5 @@ class Venda {
   Cliente cliente;
   Funcionario funcionario;
 
-  Venda({
-    this.valor,
-    this.cliente,
-    this.funcionario,
-  });
+  Venda({this.valor = 0, this.cliente, this.funcionario});
 }
