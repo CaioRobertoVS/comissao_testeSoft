@@ -12,7 +12,7 @@ void main() {
 
   var caio = Funcionario(nome: 'Pedro', cargo: gerente);
   var pedro = Funcionario(nome: 'Caio', cargo: supervisor);
-  var venda1 = Venda(valor: 1000, cliente: cliente, funcionario: caio);
+  var venda1 = Venda(valor: 2555, cliente: cliente, funcionario: caio);
   var venda2 = Venda(valor: 1000, cliente: cliente, funcionario: pedro);
 
   var gerenteVenda = gerente.comissao(venda1).toStringAsFixed(2);
